@@ -29,7 +29,7 @@ body{
 
 .left{
     height: 80px;
-    padding: 20px;
+    padding: 20px 0;
     line-height: 30px;
 }
 
@@ -104,10 +104,15 @@ body{
     padding: 20px;
 
 }
-ul li ::after{
-    content: "fa fa-caret-down";
-    font-weight: bold;
-    font-style: italic;
+
+ul li:after{
+    content: '\f0d7';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left:5px;
+    color:black;
 }
 
 .cnt-blue{
