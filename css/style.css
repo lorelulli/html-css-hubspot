@@ -18,30 +18,86 @@ body{
     background-color: grey;
 }
 
+.container-grey{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+}
+
 .cnt-white{
     background-color: white;
+}
+
+.container-white{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px;
 }
 
 .cnt-blue{
     background-color: blue;
 }
 
+.container-blue{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+}
+
 .cnt-pink{
     background-color: pink;
+}
+
+.container-pink{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 500px;
 }
 
 .cnt-lightgrey{
     background-color: lightgrey;
 }
 
+.container-lightgrey{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 900px;
+}
+
 .cnt-water{
     background-color: green;
+}
+
+.container-water{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 500px;
 }
 
 .cnt-whiteb{
     background-color: white;
 }
 
+.container-whiteb{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+}
+
 .cnt-greyb{
     background-color: grey;
+}
+
+.container-greyb{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 500px;
 }
