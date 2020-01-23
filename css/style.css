@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.cnt-grey{
+    background-color: grey;
+}
+
+.cnt-white{
+    background-color: white;
+}
+
+.cnt-blue{
+    background-color: blue;
+}
+
+.cnt-pink{
+    background-color: pink;
+}
+
+.cnt-lightgrey{
+    background-color: lightgrey;
+}
+
+.cnt-water{
+    background-color: green;
+}
+
+.cnt-whiteb{
+    background-color: white;
+}
+
+.cnt-greyb{
+    background-color: grey;
+}
