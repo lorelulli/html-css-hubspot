@@ -105,7 +105,7 @@ body{
 
 }
 
-ul li:after{
+.menu ul li:after{
     content: '\f0d7';
     font-family: FontAwesome;
     font-style: normal;
@@ -128,14 +128,28 @@ ul li:after{
 
 }
 
+.slogan-1{
+    box-sizing: border-box;
+    height: 80px;
+
+    color: white;
+}
+
 .slogan-1 p{
-    width: 80%;
+    width: 90%;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 0;
 }
 
 .btn button{
     position: absolute;
-    top: 0;
+    top: 30px;
     right: 0;
+    color: blue;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
 
 }
 
@@ -150,10 +164,31 @@ ul li:after{
     height: 500px;
 }
 
+
 .slogan-2{
-    width: 50%;
+    width: 40%;
 }
 
+.slogan-2 h2{
+    font-size: 50px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+
+}
+
+.slogan-2 button{
+    background-color: orange;
+    border: orange solid 2px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    margin: 10px 0 10px;
+}
+
+#small{
+    font-size: 10px;
+}
 
 
 .cnt-lightgrey{
@@ -172,22 +207,61 @@ ul li:after{
 
 }
 
+.slogan-3 img{
+    height: 250px;
+    margin-top: 100px;
+}
+
+.slogan-3 h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.slogan-3 p{
+
+    padding: 0 40px 40px 40px;
+    text-align: center;
+
+}
+
 .block{
     background-color: white;
     height: 300px;
+    box-sizing: border-box;
 
 }
 
 .block .card-1{
     width: 30%;
-    height: 300px;
+    float: left;
+    text-align: center;
+}
 
-    display: inline-block;
+.card-1 img{
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 
 }
 
+.card-1 button{
+    display: block;
+    margin-left: 40%;
+    background-color: orange;
+    border: orange solid 2px;
+    color: white;
+    padding: 10px;
+
+    border-radius: 5px;
+
+
+
+}
+
+
+
 .block .card-2{
-    width: 69%;
+    width: 70%;
     height: 300px;
     display: inline-block;
 
@@ -197,21 +271,94 @@ ul li:after{
 
 .card-2 ul li{
     display: inline;
+    padding-right: 20px;
+}
+
+.card-2 ul li:before{
+    content: '\f058';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-right: 5px;
+
+    color:orange;
+}
+
+.card-2 h4{
+    padding:40px 0 20px;
+    font-size: 30px;
+    font-style: bold;
+
+}
+
+.card-2 h5{
+    padding: 20px 0 20px;
+    font-size: 20px;
+
+}
+
+.block-2{
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 .block-2 .card{
     display: inline-block;
-    width: 32%;
-
-
+    width: 33%;
+    box-sizing: border-box;
     background-color: white;
-    margin-right: 10px;
-    margin-top: 10px;
+
+    margin-top: 20px;
 
 }
 
+
+
 .card img{
     height: 200px;
+    margin: 40px 90px;
+
+}
+
+.card h3,h4{
+    text-align: center;
+}
+
+.card p{
+    padding: 20px;
+}
+
+.card ul li{
+    padding-top: 20px;
+    padding-right: 20px;
+    list-style-type:none;
+
+}
+
+.card ul li:before{
+    content: '\f058';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-right: 5px;
+    margin-left: 20px;
+
+    color:orange;
+}
+
+.card button{
+    display: block;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: orange;
+    border: orange solid 2px;
+    color: white;
+    padding: 10px;
+
+    border-radius: 5px;
 }
 
 .cnt-water{
