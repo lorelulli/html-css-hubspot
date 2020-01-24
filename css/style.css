@@ -15,7 +15,7 @@ body{
 }
 
 .cnt-grey{
-    background-color: grey;
+    background-color: #f5f8fa;
 }
 
 .container-grey{
@@ -31,13 +31,19 @@ body{
     height: 80px;
     padding: 20px 0;
     line-height: 30px;
+    color: #33475B;
 }
 
 #line{
-    border-left: solid black 2px;
+    border-left: solid #7c98b6 2px;
     padding-left: 10px;
 
 }
+
+.left i{
+    color: #7c98b6;
+}
+
 
 .left p , i{
     display: inline-block;
@@ -55,16 +61,16 @@ body{
 
 #log{
     background-color: white;
-    border: orange solid 2px;
-    color: orange;
+    border: #ff7a59 solid 2px;
+    color: #ff7a59;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
 }
 
 #get{
-    background-color: orange;
-    border: orange solid 2px;
+    background-color: #ff7a59;
+    border: #ff7a59 solid 2px;
     color: white;
     padding: 10px;
     margin: 10px;
@@ -95,6 +101,8 @@ body{
     position: absolute;
     top: 15px;
     right: 0;
+    color: #33475B;
+    font-weight: bold;
 
 
 }
@@ -116,7 +124,7 @@ body{
 }
 
 .cnt-blue{
-    background-color: blue;
+    background-color: #425b76;;
 }
 
 .container-blue{
@@ -146,15 +154,16 @@ body{
     position: absolute;
     top: 30px;
     right: 0;
-    color: blue;
+    color: #425b76;
     background-color: white;
     padding: 10px;
     border-radius: 5px;
+    font-weight: bold;
 
 }
 
 .cnt-pink{
-    background-color: pink;
+    background-color: #fff1ee;
 }
 
 .container-pink{
@@ -177,8 +186,8 @@ body{
 }
 
 .slogan-2 button{
-    background-color: orange;
-    border: orange solid 2px;
+    background-color: #ff7a59;
+    border: #ff7a59 solid 2px;
     color: white;
     padding: 10px;
     margin: 10px;
@@ -192,14 +201,14 @@ body{
 
 
 .cnt-lightgrey{
-    background-color: lightgrey;
+    background-color: #f5f8fa;
 }
 
 .container-lightgrey{
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    height: 1200px;
+    height: 1800px;
 }
 
 .slogan-3{
@@ -247,8 +256,8 @@ body{
 .card-1 button{
     display: block;
     margin-left: 40%;
-    background-color: orange;
-    border: orange solid 2px;
+    background-color: #ff7a59;
+    border: #ff7a59 solid 2px;
     color: white;
     padding: 10px;
 
@@ -282,7 +291,7 @@ body{
     text-decoration: inherit;
     margin-right: 5px;
 
-    color:orange;
+    color: #ff7a59;
 }
 
 .card-2 h4{
@@ -345,7 +354,7 @@ body{
     margin-right: 5px;
     margin-left: 20px;
 
-    color:orange;
+    color:#ff7a59;
 }
 
 .card button{
@@ -353,8 +362,8 @@ body{
     margin-left: 40%;
     margin-bottom: 20px;
     margin-top: 20px;
-    background-color: orange;
-    border: orange solid 2px;
+    background-color: #ff7a59;
+    border: #ff7a59 solid 2px;
     color: white;
     padding: 10px;
 
