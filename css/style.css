@@ -101,14 +101,14 @@ body{
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    height: 100px;
+
     position: relative;
-    margin-top: 30px;
+
 }
 
 .logo{
     height: 80px;
-    padding: 30px 0;
+    padding: 40px 0 60px;
 
 }
 
@@ -149,14 +149,14 @@ body{
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    height: 100px;
+
     position: relative;
 
 }
 
 .slogan-1{
     box-sizing: border-box;
-    height: 80px;
+
 
     color: white;
 }
@@ -166,10 +166,11 @@ body{
 }
 
 .slogan-1 p{
-    width: 80%;
-    font-size: 18px;
-    padding-top: 30px;
-    padding-left: 0;
+    width: 70%;
+    font-size: 20px;
+    padding: 30px 0;
+
+    line-height: 30px;
 }
 
 .btn button{
@@ -178,10 +179,11 @@ body{
     right: 100px;
     color: #425b76;
     background-color: white;
-    padding: 12px 24px;
+    padding: 18px 38px;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
+
 
 }
 
@@ -242,7 +244,7 @@ body{
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    height 1800px;
+
 }
 
 .slogan-3{
@@ -305,6 +307,7 @@ body{
     padding: 12px 24px;
     font-size: 15px;
     border-radius: 5px;
+    margin-bottom: 50px;
 
 
 
@@ -385,6 +388,7 @@ body{
     padding-left: 0;
     padding-right: 40px;
     padding-top: 40px;
+
     color: #33475b;
 }
 
@@ -403,6 +407,7 @@ body{
 
 .carduno{
     background-color: white;
+    padding-bottom: 40px;
 
 }
 
@@ -454,13 +459,11 @@ body{
 
 .card button{
     display: block;
-    margin-left: 40%;
-    margin-bottom: 30px;
-    margin-top: 20px;
+    margin: 30px auto;
     background-color: #ff7a59;
     border: #ff7a59 solid 2px;
     color: white;
-    padding: 10px;
+    padding: 16px 36px;
     font-size: 15px;
     border-radius: 5px;
 }
@@ -584,7 +587,7 @@ body{
 .divuno{
 
     float: left;
-    width: 40%;
+    width: 30%;
     height: 400px;
 
 }
@@ -593,15 +596,17 @@ body{
     margin-top: 100px;
     font-weight: 900;
     color: #33475b;
-    font-size: 40px;
+    font-size: 45px;
+    padding-left: 40px;
 }
 
 .divuno p{
     font-weight: 300;
     color: #33475b;
     margin-top: 20px;
-    font-size: 20px;
-    letter-spacing: 0.52em
+    font-size: 25px;
+    padding-left: 40px;
+    line-height: 40px;
 
 }
 
