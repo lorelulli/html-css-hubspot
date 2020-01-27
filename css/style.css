@@ -23,26 +23,33 @@ body{
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-
     position: relative;
 
+
+
+
 }
+
+
 
 .left{
     height: 80px;
     padding: 20px 0;
     line-height: 30px;
     color: #33475B;
+
+
 }
 
 #line{
-    border-left: solid #7c98b6 2px;
-    padding-left: 10px;
+    border-left: solid #cbd6e2 2px;
+    padding-left: 30px;
 
 }
 
 .left i{
     color: #7c98b6;
+    font-size: 22px;
 }
 
 
@@ -60,22 +67,29 @@ body{
 
 }
 
+.right i{
+    color: #01a4bd;
+    font-size: 15px;
+}
+
 #log{
     background-color: white;
-    border: #ff7a59 solid 2px;
+    border: #ff7a59 solid 1px;
     color: #ff7a59;
-    padding: 10px;
+    padding: 10px 16px;
     margin: 10px;
     border-radius: 5px;
+    font-size: 12px;
 }
 
 #get{
     background-color: #ff7a59;
     border: #ff7a59 solid 2px;
     color: white;
-    padding: 10px;
+    padding: 10px 16px;
     margin: 10px;
     border-radius: 5px;
+    font-size: 12px;
 }
 
 
@@ -89,6 +103,7 @@ body{
     margin: 0 auto;
     height: 100px;
     position: relative;
+    margin-top: 30px;
 }
 
 .logo{
@@ -112,6 +127,7 @@ body{
     display: inline-block;
     padding: 20px;
 
+
 }
 
 .menu ul li:after{
@@ -121,7 +137,8 @@ body{
     font-weight: normal;
     text-decoration: inherit;
     margin-left:5px;
-    color:black;
+    color: #7c98b6;
+    font-size: 22px;
 }
 
 .cnt-blue{
@@ -144,8 +161,12 @@ body{
     color: white;
 }
 
+.trecento{
+    font-weight: 300;
+}
+
 .slogan-1 p{
-    width: 90%;
+    width: 80%;
     font-size: 18px;
     padding-top: 30px;
     padding-left: 0;
@@ -154,18 +175,19 @@ body{
 .btn button{
     position: absolute;
     top: 30px;
-    right: 0;
+    right: 100px;
     color: #425b76;
     background-color: white;
-    padding: 10px;
+    padding: 12px 24px;
     border-radius: 5px;
     font-weight: bold;
+    font-size: 14px;
 
 }
 
 .cnt-pink{
     background-color: #fff1ee;
-    background-image: url("//cdn2.hubspot.net/hubfs/53/assets/hubspot.com/home/2019/clouds-desktop.svg")
+    background-image: url("")
 }
 
 .container-pink{
@@ -181,24 +203,34 @@ body{
 }
 
 .slogan-2 h2{
-    font-size: 50px;
+    font-size: 55px;
     padding-top: 80px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    font-weight: 900;
+    color: #33475b;
 
+}
+
+.slogan-2 p{
+    font-weight: 300;
+    color: #33475b;
+    font-size: 16px;
 }
 
 .slogan-2 button{
     background-color: #ff7a59;
     border: #ff7a59 solid 2px;
     color: white;
-    padding: 10px;
-    margin: 10px;
+    padding: 26px 48px;
+    margin: 0px;
     border-radius: 5px;
-    margin: 10px 0 10px;
+    margin: 20px 0;
+    font-size: 16px;
 }
 
 #small{
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 
@@ -224,17 +256,19 @@ body{
 }
 
 .slogan-3 h3{
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 32px;
+    font-weight: 900;
     padding-bottom: 20px;
+    color: #33475b;
 }
 
 .slogan-3 p{
 
     padding: 0 40px 50px 40px;
     text-align: center;
-    font-size: 1em;
-    font-weight: lighter;
+    font-size: 16px;
+    font-weight: 300;
+    color: #33475b;
 
 }
 
@@ -242,6 +276,8 @@ body{
     background-color: white;
     height: 300px;
     box-sizing: border-box;
+    width: 90%;
+    margin: 0 auto;
 
 }
 
@@ -250,6 +286,7 @@ body{
     float: left;
     text-align: center;
 }
+
 
 .card-1 img{
     height: 150px;
@@ -265,9 +302,10 @@ body{
     background-color: #ff7a59;
     border: #ff7a59 solid 2px;
     color: white;
-    padding: 10px;
+    padding: 12px 24px;
     font-size: 15px;
     border-radius: 5px;
+
 
 
 
@@ -291,6 +329,10 @@ body{
 .card-2 ul li{
     display: inline;
     padding-right: 20px;
+    font-weight: normal;
+    font-size: 15px;
+    color: #33475b;
+    padding-bottom: 100px;
 }
 
 .card-2 ul li:before{
@@ -300,26 +342,35 @@ body{
     font-weight: normal;
     text-decoration: inherit;
     margin-right: 5px;
+    font-size: 20px;
 
     color: #ff7a59;
 }
 
 .card-2 h4{
     padding:40px 0 20px;
-    font-size: 30px;
+    font-size: 25px;
     font-style: bold;
+    color: #33475b;
 
 }
 
 .card-2 h5{
-    padding: 20px 0 20px;
-    font-size: 20px;
+    padding: 30px 0 20px;
+    font-size: 14px;
+    color: #33475b;
 
+}
+
+.card-2{
+    color: #33475b;
+    font-weight: 300;
 }
 
 .block-2{
     box-sizing: border-box;
-    max-width: 100%;
+    max-width: 90%;
+    margin: 40px auto;
 
 }
 
@@ -328,21 +379,35 @@ body{
     width: 33.3%;
     box-sizing: border-box;
 
+}
+
+.card-a{
+    padding-left: 0;
+    padding-right: 40px;
+    padding-top: 40px;
+    color: #33475b;
+}
+
+.card-b{
     padding: 40px;
+    color: #33475b;
+}
 
-
-
-
+.card-c{
+    padding-left: 40px;
+    padding-right: 0;
+    padding-top: 40px;
+    color: #33475b;
 
 }
 
 .carduno{
     background-color: white;
+
 }
 
-.one{
-    padding: 20px 20px 0 20px;
-}
+
+
 
 .card img{
     height: 150px;
@@ -359,6 +424,12 @@ body{
 
 .card p{
     padding: 20px;
+    border-bottom: 1px solid #33475b;
+}
+
+.card h4{
+    padding-top: 20px
+
 }
 
 .card ul li{
@@ -376,6 +447,7 @@ body{
     text-decoration: inherit;
     margin-right: 5px;
     margin-left: 20px;
+    font-size: 20px;
 
     color:#ff7a59;
 }
@@ -413,7 +485,13 @@ body{
 
 #grande{
     font-size: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+}
+
+.slogan-4 p{
+    font-weight: 300;
+    font-size: 16px;
+
 }
 
 .griglia .casella{
@@ -470,8 +548,8 @@ body{
 }
 
 .casella img{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
     height: 80px;
 }
 
@@ -480,8 +558,15 @@ body{
 
 }
 
+
+.sottonumero{
+    font-weight: 300;
+}
+
 .numero{
     font-size: 40px;
+    font-weight: 900;
+
 }
 
 
@@ -501,7 +586,25 @@ body{
     float: left;
     width: 40%;
     height: 400px;
+
 }
+
+#numero-bis{
+    margin-top: 100px;
+    font-weight: 900;
+    color: #33475b;
+    font-size: 40px;
+}
+
+.divuno p{
+    font-weight: 300;
+    color: #33475b;
+    margin-top: 20px;
+    font-size: 20px;
+    letter-spacing: 0.52em
+
+}
+
 .divdue{
 
     box-sizing: border-box;
@@ -519,12 +622,17 @@ body{
 }
 
 .casellalogo img{
-    height: 20px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding-right:
+    height: 16px;
 
+}
 
+.spaziologo{
+    padding: 100px 0 20px;
+    margin-right: 50px;
+}
+
+.rowtwo .casellalogo .spaziologo{
+    padding-top: 50px;
 }
 
 .divtre{
@@ -533,20 +641,34 @@ body{
 }
 
 .divtre h2{
-    font-size: 50px;
+    font-size: 32px;
     padding-top: 80px;
     padding-bottom: 20px;
+    color:  #33475b;
 
+}
+
+.divtre p{
+    color:  #33475b;
+    font-weight: 300;
+    padding-bottom: 20px;
 }
 
 .divtre button{
     background-color: #ff7a59;
     border: #ff7a59 solid 2px;
     color: white;
-    padding: 10px;
+    padding: 26px 48px;
     margin: 10px;
     border-radius: 5px;
     margin: 10px 0;
+    font-size: 16px;
+}
+
+#small{
+    padding-top: 20px;
+    color:  #516f90;
+
 }
 
 .divquattro{
@@ -561,7 +683,7 @@ body{
 
 
 .cnt-greyb{
-    background-color: grey;
+    background-color: #33475b;
 
 }
 
@@ -569,26 +691,56 @@ body{
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    height: 500px;
+    height:
 }
 
 .sezione-greyb{
     float: left;
     width: 25%;
     box-sizing: border-box;
+    color:white;
 
+
+}
+
+.sezione-greyb h3{
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+
+
+
+.sezione-greyb ul li{
+    list-style-type: none;
+    padding-bottom: 20px;
+    font-weight: 300;
+    color: #cbd6e2;
+
+}
+
+.sezione-greyb button{
+    padding: 9px 16px;
+    color:  #33475b;
+    font-size: 15px;
+    border-radius: 5px;
 
 }
 
 .social a{
     display: inline-block;
+    margin-top: 20px;
+    padding-right: 30px;
+    color: #cbd6e2;
+    font-size: 20px;
 
 }
 
 .menu-greyb{
     text-align: center;
-    border-bottom: solid 2px black;
-    width: 80%;
+    border-bottom: inset 2px #cbd6e2 ;
+
+
 
 }
 
@@ -596,6 +748,9 @@ body{
     display: inline-block;
     text-align: center;
     margin-bottom: 100px;
+    margin-top: 40px;
+    padding-right: 30px;
+    color: #cbd6e2;
 
 }
 
@@ -603,6 +758,25 @@ body{
     float: left;
 }
 
+.footer-left img{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.footer-left p{
+    color: #cbd6e2;
+    font-weight: 300;
+    font-size: 15px;
+    padding-bottom: 100px;
+}
+
 .footer-right{
     float:right;
+    padding-top: 30px;
+}
+
+.footer-right a{
+    color: #cbd6e2;
+
+    padding-right: 20px;
 }
