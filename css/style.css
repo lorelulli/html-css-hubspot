@@ -210,7 +210,7 @@ body{
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    height: 1800px;
+    height 1800px;
 }
 
 .slogan-3{
@@ -320,26 +320,35 @@ body{
 .block-2{
     box-sizing: border-box;
     max-width: 100%;
+
 }
 
 .block-2 .card{
     float: left;
     width: 33.3%;
     box-sizing: border-box;
-    background-color: white;
-    padding: 15px;
+
+    padding: 40px;
+
 
 
 
 
 }
 
+.carduno{
+    background-color: white;
+}
 
+.one{
+    padding: 20px 20px 0 20px;
+}
 
 .card img{
     height: 150px;
     width: 235px;
-    margin: 40px 90px;
+
+    margin: 20px 40px;
 
 }
 
@@ -385,15 +394,96 @@ body{
 }
 
 .cnt-water{
-    background-color: green;
+    background-color: #00a4bd;
 }
 
 .container-water{
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    height: 500px;
+
 }
+
+
+.slogan-4{
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+
+#grande{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.griglia .casella{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    border-bottom: solid white 2px;
+
+    height: 200px;
+
+}
+
+#due{
+    border-left: solid white 2px;
+    border-right: solid white 2px;
+
+}
+
+#tre{
+    border-right: solid white 2px;
+}
+
+
+#cinque{
+    border-left: solid white 2px;
+    border-right: solid white 2px;
+
+}
+
+#sei{
+    border-right: solid white 2px;
+
+}
+
+#griglia{
+    padding-bottom: 100px;
+}
+
+#griglia .casella{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+
+    height: 200px;
+
+}
+
+
+.casella{
+    text-align: center;
+    color: white;
+
+
+}
+
+.casella img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 80px;
+}
+
+.casella p{
+    padding-bottom: 20px;
+
+}
+
+.numero{
+    font-size: 40px;
+}
+
 
 .cnt-whiteb{
     background-color: white;
@@ -403,11 +493,76 @@ body{
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    height: 500px;
+
 }
+
+.divuno{
+
+    float: left;
+    width: 40%;
+    height: 400px;
+}
+.divdue{
+
+    box-sizing: border-box;
+    float: right;
+    width: 60%;
+    height: 400px;
+}
+
+.casellalogo{
+    width: 25%;
+    box-sizing: border-box;
+
+    float: left;
+
+}
+
+.casellalogo img{
+    height: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-right:
+
+
+}
+
+.divtre{
+    width: 40%;
+    float: left;
+}
+
+.divtre h2{
+    font-size: 50px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+
+}
+
+.divtre button{
+    background-color: #ff7a59;
+    border: #ff7a59 solid 2px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.divquattro{
+    float: right;
+}
+
+.divquattro img{
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+
 
 .cnt-greyb{
     background-color: grey;
+
 }
 
 .container-greyb{
@@ -415,4 +570,39 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     height: 500px;
+}
+
+.sezione-greyb{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+
+
+}
+
+.social a{
+    display: inline-block;
+
+}
+
+.menu-greyb{
+    text-align: center;
+    border-bottom: solid 2px black;
+    width: 80%;
+
+}
+
+.menu-greyb li{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+.footer-left{
+    float: left;
+}
+
+.footer-right{
+    float:right;
 }
